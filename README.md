@@ -4,7 +4,7 @@
 ### Military Expenditure as a Percentage of Government Spending
 ![militaryspending1](images/screenshot1.png?raw=true "militaryspending1")
 ![militaryspending2](images/screenshot2.png?raw=true "militaryspending2")
-![militaryspending3](images/screenshot2.png?raw=true "militaryspending3")
+![militaryspending3](images/screenshot3.png?raw=true "militaryspending3")
 
 For my third project, I created a data visualization using data on military expenditure as a percentage of government spending per country in 2017. My data set is from the Stockholm International Peace Research Institute (SIPRI), which has a Military Expenditure Database with data on military spending from 1949 to 2017. When we started the data visualization unit, I knew that I wanted to create a map visualizing some sort of international comparison. I was inspired by a data visualization by the United Nations Office of the High Commissioner for Human Rights on the ratification of international human rights treaties, so I sought out a data set that I could play around with to create a similar mapping project. 
 
