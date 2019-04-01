@@ -23,8 +23,8 @@ function setup()
     //referencing the SceneManager class
     mgr = new SceneManager();
 
-    //adding six scenes to sketch
-    //six different functions will be created for these scenes
+    //adding eleven scenes to sketch
+    //eleven different functions will be created for these scenes
     mgr.addScene ( Animation1 );
     mgr.addScene ( Animation2 );
     mgr.addScene ( Animation3 );
@@ -54,7 +54,7 @@ function mousePressed()
     mgr.mousePressed();
 }
 
-//you can press BACKSPACE to go back to the first scene
+//you can press BACKSPACE to go back to the first scene at any time
 function keyPressed()
 {
     
@@ -157,7 +157,7 @@ function Animation3()
 {
     this.draw = function()
     {
-        //creating a brown background
+        //creating a dark green background
         background(12, 83, 14);
 
         //putting text into a variable
@@ -617,7 +617,7 @@ function Animation10()
         if (mouseX > width/2){
             //flag of Oman in the background
             background(img8);
-            //general information Oman
+            //general information about Oman
             textSize(75);
             textAlign(CENTER);
             fill("black");
@@ -681,10 +681,5 @@ function Animation11()
         fill("white");
         text(def, width / 2 - 400, height / 2 - 200, 800, 800);
     }
-
-    //you can click to the next scene
-    this.mousePressed = function()
-    {
-        this.sceneManager.showNextScene();
-    }
+    
 }
